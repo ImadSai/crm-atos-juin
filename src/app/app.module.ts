@@ -8,6 +8,7 @@ import { LoginModule } from './login/login.module';
 import { TemplatesModule } from './templates/templates.module';
 import { TextModule } from './text/text.module';
 import { UiModule } from './ui/ui.module';
+import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 
 @NgModule({
   declarations: [
@@ -21,7 +22,8 @@ import { UiModule } from './ui/ui.module';
     IconsModule,
     TextModule,
     UiModule,
-    TemplatesModule
+    TemplatesModule,
+    NgbModule
   ],
   providers: [],
   bootstrap: [AppComponent]
