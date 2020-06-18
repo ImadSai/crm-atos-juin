@@ -1,0 +1,16 @@
+
+  <a *ngIf="route" [routerLink]="route">
+    <app-text class="text" [color]="color">
+      <span>{{ label }}</span>
+    </app-text>
+  </a>
+  <a *ngIf="href" [href]="href">
+    <app-text class="text" [color]="color">
+      <span>{{ label }}</span>
+    </app-text>
+  </a>
+  <button *ngIf="action" (click)="doAction()">
+    <app-text class="text" [color]="color">
+      <span>{{ label }}</span>
+    </app-text>
+  </button>

@@ -1,9 +1,29 @@
-✔ Orders Module @done(20-06-15 14:17)
-✔ Clients Module @done(20-06-15 14:17)
-✔ Library Module @done(20-06-15 14:17)
-✔ NotFound Module @done(20-06-15 14:17)
-✔ Core Module @done(20-06-15 14:17)
-✔ Icons Module @done(20-06-15 14:17)
-✔ Text Module @done(20-06-15 14:17)
-✔ UI Module @done(20-06-15 14:17)
-✔ Templates Module @done(20-06-15 14:17)
+✔ OrdersModule @done(20-06-15 13:17)
+✔ ClientsModule @done(20-06-15 13:17)
+✔ LibraryModule @done(20-06-15 13:17)
+✔ PageNotFoundModule @done(20-06-15 13:17)
+✔ CoreModule @done(20-06-15 13:17)
+✔ IconsModule @done(20-06-15 13:17)
+✔ TextModule @done(20-06-15 13:17)
+✔ UiModule @done(20-06-15 13:17)
+✔ TemplatesModule @done(20-06-15 13:18)
+✔ life cycles @done(20-06-16 10:43)
+✔ TextModule @done(20-06-16 11:22)
+✔ router @done(20-06-17 08:25)
+✔ components stupides vs components intelligents @done(20-06-17 08:30)
+✔ tp router @done(20-06-17 08:30)
+  ✔ PageNotFoundRoutingModule @done(20-06-17 08:30)
+  ✔ ClientsRoutingModule @done(20-06-17 08:30)
+  ✔ navigation vers la route clients @done(20-06-17 08:30)
+✔ nav-items component with @Input() and interface @done(20-06-17 08:30)
+✔ btn component dynamic stupid @done(20-06-17 10:41)
+✔ directive perso pour les noms de class sur app text @done(20-06-17 16:10)
+☐ tableau component
+☐ collection dans le tableau
+☐ appels http
+☐ pipes angular
+☐ directive perso
+☐ pipe perso
+☐ come back on btn component for @Output()
+
+☐ TP Client

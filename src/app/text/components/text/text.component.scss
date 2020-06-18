@@ -1,0 +1,72 @@
+@import 'theme';
+@import 'fonts';
+
+app-text {
+  display: block;
+  // padding: 10px;
+}
+
+// colors
+.text {
+  h1, h2, h3, p, span, i, li, a, button {
+    color: $dark-color;
+  }
+}
+.text {
+  .color-light {
+    h1, h2, h3, p, span, i, li, a, button {
+      color: $light-color;
+    }
+  }
+}
+.text {
+  .color-one {
+    h1, h2, h3, p, span, i, li, a, button {
+      color: $color1;
+    }
+  }
+}
+.text {
+  .color-two {
+    h1, h2, h3, p, span, i, li, a, button {
+      color: $color2;
+    }
+  }
+}
+.text {
+  .color-three {
+    h1, h2, h3, p, span, i, li, a, button {
+      color: $color3;
+    }
+  }
+}
+.text {
+  .color-error {
+    h1, h2, h3, p, span, i, li, a, button {
+      color: $color-error;
+    }
+  }
+}
+.text {
+  .color-success {
+    h1, h2, h3, p, span, i, li, a, button {
+      color: $color-success;
+    }
+  }
+}
+
+// sizes
+
+h1 {
+  font-size: $h1-fz;
+}
+h2 {
+  font-size: $h2-fz;
+}
+h3 {
+  font-size: $h3-fz;
+}
+
+p, span, i, li {
+  font-size: $regular-fz;
+}

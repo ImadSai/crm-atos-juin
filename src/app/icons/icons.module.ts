@@ -6,6 +6,8 @@ import { IconCloseComponent } from './components/icons/icon-close.component';
 import { IconEditComponent } from './components/icons/icon-edit.component';
 import { IconDeleteComponent } from './components/icons/icon-delete.component';
 
+
+
 @NgModule({
   declarations: [IconNavComponent, IconCloseComponent, IconEditComponent, IconDeleteComponent],
   imports: [

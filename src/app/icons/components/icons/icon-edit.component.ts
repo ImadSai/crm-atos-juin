@@ -7,9 +7,7 @@ import { faEdit } from '@fortawesome/free-solid-svg-icons';
   styleUrls: ['./icon.component.scss']
 })
 export class IconEditComponent implements OnInit {
-
-  public myIcon = faEdit;
-
+public myIcon = faEdit;
   constructor() { }
 
   ngOnInit(): void {

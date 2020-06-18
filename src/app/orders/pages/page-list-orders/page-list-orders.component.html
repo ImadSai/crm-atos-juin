@@ -1,0 +1,18 @@
+<app-template-one-col [title]="true">
+
+  <ng-container class="title">
+    <app-text class="text" color="color-light">
+      <h1>Orders</h1>
+    </app-text>
+  </ng-container>
+
+  <ng-container class="contents">
+    <!-- <div>{{ collection | json}}</div> -->
+    <app-table-light [headers]="headers"></app-table-light>
+
+    <app-btn label="Add an Order" route="add" color="color-light"></app-btn>
+    <app-btn label="Angular" href="https://www.angular.io" color="color-two"></app-btn>
+    <app-btn label="Popup" [action]="true" color="color-three"></app-btn>
+  </ng-container>
+
+</app-template-one-col>

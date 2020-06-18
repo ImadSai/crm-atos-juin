@@ -7,9 +7,7 @@ import { faBars } from '@fortawesome/free-solid-svg-icons';
   styleUrls: ['./icon.component.scss']
 })
 export class IconNavComponent implements OnInit {
-
   public myIcon = faBars;
-
   constructor() { }
 
   ngOnInit(): void {

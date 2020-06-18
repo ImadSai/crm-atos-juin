@@ -3,7 +3,7 @@
   "version": 1,
   "newProjectRoot": "projects",
   "projects": {
-    "crm-atos": {
+    "crm-atos-juin": {
       "projectType": "application",
       "schematics": {
         "@schematics/angular:component": {
@@ -17,7 +17,7 @@
         "build": {
           "builder": "@angular-devkit/build-angular:browser",
           "options": {
-            "outputPath": "dist/crm-atos",
+            "outputPath": "dist/crm-atos-juin",
             "index": "src/index.html",
             "main": "src/main.ts",
             "polyfills": "src/polyfills.ts",
@@ -28,7 +28,10 @@
               "src/assets"
             ],
             "styles": [
-              "src/styles.scss"
+              "src/styles.scss",
+              {
+                "input": "./node_modules/bootstrap/dist/css/bootstrap.css"
+              }
             ],
             "stylePreprocessorOptions": {
               "includePaths": [
@@ -71,18 +74,18 @@
         "serve": {
           "builder": "@angular-devkit/build-angular:dev-server",
           "options": {
-            "browserTarget": "crm-atos:build"
+            "browserTarget": "crm-atos-juin:build"
           },
           "configurations": {
             "production": {
-              "browserTarget": "crm-atos:build:production"
+              "browserTarget": "crm-atos-juin:build:production"
             }
           }
         },
         "extract-i18n": {
           "builder": "@angular-devkit/build-angular:extract-i18n",
           "options": {
-            "browserTarget": "crm-atos:build"
+            "browserTarget": "crm-atos-juin:build"
           }
         },
         "test": {
@@ -119,15 +122,16 @@
           "builder": "@angular-devkit/build-angular:protractor",
           "options": {
             "protractorConfig": "e2e/protractor.conf.js",
-            "devServerTarget": "crm-atos:serve"
+            "devServerTarget": "crm-atos-juin:serve"
           },
           "configurations": {
             "production": {
-              "devServerTarget": "crm-atos:serve:production"
+              "devServerTarget": "crm-atos-juin:serve:production"
             }
           }
         }
       }
-    }},
-  "defaultProject": "crm-atos"
+    }
+  },
+  "defaultProject": "crm-atos-juin"
 }

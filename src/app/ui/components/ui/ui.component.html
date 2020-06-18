@@ -1,26 +1,26 @@
 <header class="fixed-top">
-  header content
+  <span (click)="toggle()">
+    <ng-content select=".icon-nav" *ngIf="!open else close"></ng-content>
+    <ng-template #close>
+        <ng-content select=".icon-close"></ng-content>
+    </ng-template>
+  </span>
+  <ng-content select=".header"></ng-content>
 </header>
-<main>
-
+<main [ngClass]="{'close-aside': !open}">
  <div class="shadow position-fixed">
-
  </div>
-
  <aside>
    <div class="scroller">
-    <app-icon-close></app-icon-close>
-     nav contents
+    <ng-content select=".nav"></ng-content>
    </div>
  </aside>
-
  <div class="page">
    <div class="contents">
-     route contents
+    <ng-content select=".contents"></ng-content>
    </div>
    <footer>
-     footer contents
+    <ng-content select=".footer"></ng-content>
    </footer>
  </div>
-
 </main>

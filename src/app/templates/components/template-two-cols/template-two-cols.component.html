@@ -1,0 +1,19 @@
+
+<div class="container-fluid">
+
+  <div class="row" *ngIf="title">
+    <div class="col-12 bandeau">
+      <ng-content select=".title"></ng-content>
+    </div>
+  </div>
+
+  <div class="row contents">
+    <div class="col-12 col-sm-6">
+      <ng-content select=".content-left"></ng-content>
+    </div>
+    <div class="col-12 col-sm-6">
+      <ng-content select=".content-right"></ng-content>
+    </div>
+  </div>
+
+</div>

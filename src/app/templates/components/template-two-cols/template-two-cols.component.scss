@@ -1,0 +1,11 @@
+@import 'theme';
+@import 'layout';
+
+.bandeau {
+  background: $color1;
+  padding: $gutter;
+}
+
+.contents {
+  margin-top: $gutter;
+}

@@ -7,9 +7,7 @@ import { faTrashAlt } from '@fortawesome/free-solid-svg-icons';
   styleUrls: ['./icon.component.scss']
 })
 export class IconDeleteComponent implements OnInit {
-
   public myIcon = faTrashAlt;
-
   constructor() { }
 
   ngOnInit(): void {
