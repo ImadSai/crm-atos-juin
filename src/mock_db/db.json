@@ -15,7 +15,7 @@
       "nbJours": 5,
       "tva": 20,
       "state": "CANCELED",
-      "typePresta": "Formation",
+      "typePresta": "Coaching",
       "client": "Atos",
       "comment": "Comment pour Atos",
       "id": 4
@@ -49,6 +49,36 @@
       "client": "nemesys",
       "comment": "un joli commentaire",
       "id": 7
+    },
+    {
+      "tjmHt": 1200,
+      "nbJours": 5,
+      "tva": 20,
+      "state": "CONFIRMED",
+      "typePresta": "formation",
+      "client": "Atos",
+      "comment": "Merci Mr Atos",
+      "id": 8
+    },
+    {
+      "tjmHt": 1200,
+      "nbJours": 3,
+      "tva": 20,
+      "state": "OPTION",
+      "typePresta": "coaching",
+      "client": "Atos",
+      "comment": "Rapp machin",
+      "id": 9
+    },
+    {
+      "tjmHt": 1200,
+      "nbJours": 10,
+      "tva": 20,
+      "state": "CONFIRMED",
+      "typePresta": "coaching",
+      "client": "Atos",
+      "comment": "kjhsdkgf",
+      "id": 10
     }
   ],
   "clients": [

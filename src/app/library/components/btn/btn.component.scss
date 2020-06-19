@@ -7,7 +7,6 @@ a, button {
   display: inline-block;
   padding: 1em;
   font-size: $regular-fz;
-  background: $color1;
   transition: all .5s;
   &:hover {
     text-decoration: none;
@@ -17,54 +16,14 @@ a, button {
 
 // colors
 
-// a, button {
-//   color: $light-color;
+a, button {
+  background: $color1;
+}
+
+// :host {
+//   margin: 50px;
 // }
 
-// .color-dark {
-//   a, button {
-//     color: $light-color;
-//   }
-// }
-// .color-one {
-//   a, button {
-//     color: $color1;
-//   }
-// }
-// .color-two {
-//   a, button {
-//     color: $color2;
-//   }
-// }
-// .color-three {
-//   a, button {
-//     color: $color3;
-//   }
-// }
-// .color-error {
-//   a, button {
-//     color: $color-error;
-//   }
-// }
-// .color-success {
-//   a, button {
-//     color: $color-success;
-//   }
-// }
-
-// :host-context(.bg-color-two) {
-//   a, button {
-//     background: $color2;
-//     &:hover {
-//       background: darken($color2, 10);
-//     }
-//   }
-// }
-// :host-context(.bg-color-three) {
-//   a, button {
-//     background: $color3;
-//     &:hover {
-//       background: darken($color3, 10);
-//     }
-//   }
-// }
+:host-context(.bg-color2) a, :host-context(.bg-color2) button {
+  background: $color2;
+}

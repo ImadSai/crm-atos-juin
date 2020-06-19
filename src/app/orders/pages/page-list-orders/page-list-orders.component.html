@@ -1,4 +1,4 @@
-<app-template-one-col [title]="true">
+<app-template-one-col [title]="true" [bgColor2]="false">
 
   <ng-container class="title">
     <app-text class="text" color="color-light">
@@ -7,12 +7,28 @@
   </ng-container>
 
   <ng-container class="contents">
-    <!-- <div>{{ collection | json}}</div> -->
-    <app-table-light [headers]="headers"></app-table-light>
+    <app-table-dark *ngIf="collection$ | async as collection" [headers]="headers">
+      <tr *ngFor="let item of collection" (click)="edit(item)">
+        <td>{{ item.typePresta }}</td>
+        <td>{{ item.client }}</td>
+        <td>{{ item.nbJours }}</td>
+        <td>{{ item.tjmHt | currency: 'EUR' }}</td>
+        <td>{{ item | total | currency: 'EUR' }}</td>
+        <td>{{ item | total: 'ttc' | currency: 'EUR' }}</td>
+        <td [appState]="item.state">
+          <select (change)="changeState(item, $event)" (click)="$event.stopPropagation()">
+            <option *ngFor="let state of states" [value]="state" [selected]="state === item.state">{{ state }}</option>
+            <!-- <option value="CANCELED" selected="false">CANCELED</option>
+            <option value="OPTION" selected="true">OPTION</option>
+            <option value="CONFIRMED" selected="false">CONFIRMED</option> -->
+          </select>
+        </td>
+      </tr>
+    </app-table-dark>
 
     <app-btn label="Add an Order" route="add" color="color-light"></app-btn>
     <app-btn label="Angular" href="https://www.angular.io" color="color-two"></app-btn>
-    <app-btn label="Popup" [action]="true" color="color-three"></app-btn>
+    <app-btn label="Popup" [action]="true" color="color-three"  (clicked)="popup()"></app-btn>
   </ng-container>
 
 </app-template-one-col>

@@ -18,12 +18,39 @@
 ✔ nav-items component with @Input() and interface @done(20-06-17 08:30)
 ✔ btn component dynamic stupid @done(20-06-17 10:41)
 ✔ directive perso pour les noms de class sur app text @done(20-06-17 16:10)
-☐ tableau component
-☐ collection dans le tableau
-☐ appels http
-☐ pipes angular
-☐ directive perso
-☐ pipe perso
-☐ come back on btn component for @Output()
+✔ tableau component @done(20-06-18 11:16)
+✔ collection dans le tableau @done(20-06-18 11:16)
+✔ appels http @done(20-06-18 11:16)
+✔ pipes angular @done(20-06-18 11:16)
+✔ directive perso @done(20-06-18 11:16)
+✔ pipe perso @done(20-06-18 11:16)
+✔ change detection and objects input @done(20-06-18 11:39)
+✔ maintenabilite, reutilisabilite et bonnes pratiques et viewencapsulation on table-light component @done(20-06-18 13:21)
+✔ agilité to change table en cours de projet @done(20-06-18 14:04)
+✔ :host and :host-context() angular @done(20-06-18 14:04)
+✔ come back on btn component for @Output() @done(20-06-18 14:40)
 
-☐ TP Client
+✔ TP Client @done(20-06-18 16:18)
+
+✔ enum client (ACTIVE, INACTIVE) @done(20-06-18 16:18)
+✔ interface ClientI (voir db.json) @done(20-06-18 16:18)
+✔ model Client @done(20-06-18 16:18)
+✔ ClientsService @done(20-06-18 16:18)
+✔ PageListClientComponent @done(20-06-18 16:18)
+  ✔ template-one-col avec bgColor2 @done(20-06-18 16:18)
+  ✔ table-light ou table-dark (name, ca ht, tva, ca ttc, state) @done(20-06-18 16:18)
+  ✔ item.ca (ca total ht) affichez une colone CA TTC à l'aide d'un nouveau Pipe qui return ca + tva @done(20-06-18 16:18)
+  ✔ utiliser la meme directive pour le bg des td states @done(20-06-18 16:18)
+  ✔ state-active, state-inactive (2 noms de class que vous devez ajouter dans table-light.scss et table-dark.scss) @done(20-06-18 16:18)
+
+
+  ☐ tp edit order
+
+  ☐ créer une route qui prend un parametre id apres edit/?
+  ☐ créer le component pour la page edit-order
+  ☐ sur list-order-component.html ajouter un click sur le tr qui appel edit(item)
+  ☐ sur liste-order-component.ts la fonction edit redirige vers la route orders/edit/1
+  ☐ sur edit-order-component.ts injecter ActivatedRoute (observable data)
+  ☐ souscrire à l'objet data pour récupérer l'id dans l'url
+  ☐ this.os.getItemById(id) (appel http) dans le service
+  ☐ sur edit-order-component.html utilisez une instance de form-order et binder l'input initItem avec l'item que vous venez de récupérer dans votre subscribe

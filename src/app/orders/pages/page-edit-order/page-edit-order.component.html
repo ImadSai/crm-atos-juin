@@ -1,0 +1,17 @@
+<app-template-two-cols [title]="true">
+
+  <ng-container class="title">
+    <app-text class="text" color="color-light">
+      <h1>Edit an Order</h1>
+    </app-text>
+  </ng-container>
+
+  <ng-container class="content-left">
+    <app-form-order *ngIf="item$ | async as initItem" [initItem]="initItem" (submited)="update($event)"></app-form-order>
+  </ng-container>
+
+  <ng-container class="content-right">
+    colone de droite
+  </ng-container>
+
+</app-template-two-cols>
