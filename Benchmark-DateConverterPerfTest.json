@@ -1,0 +1,820 @@
+[
+    {
+        "jmhVersion" : "1.26",
+        "benchmark" : "com.sogecap.framework.utils.benchmark.DateConverterPerfTest.testHeures",
+        "mode" : "avgt",
+        "threads" : 1,
+        "forks" : 0,
+        "jvm" : "D:\\Apps\\Java\\jdk1.8.0_192\\jre\\bin\\java.exe",
+        "jvmArgs" : [
+            "-javaagent:C:\\\\Users\\\\x204838\\\\.m2\\\\repository\\\\org\\\\jacoco\\\\org.jacoco.agent\\\\0.8.5\\\\org.jacoco.agent-0.8.5-runtime.jar=destfile=C:\\\\Users\\\\X204838\\\\Desktop\\\\projects\\\\framework3\\\\framework-dto\\\\target\\\\jacoco.exec"
+        ],
+        "jdkVersion" : "1.8.0_192",
+        "vmName" : "Java HotSpot(TM) 64-Bit Server VM",
+        "vmVersion" : "25.192-b12",
+        "warmupIterations" : 1,
+        "warmupTime" : "10 s",
+        "warmupBatchSize" : 1,
+        "measurementIterations" : 1,
+        "measurementTime" : "10 s",
+        "measurementBatchSize" : 1,
+        "primaryMetric" : {
+            "score" : 0.0015757727270292092,
+            "scoreError" : "NaN",
+            "scoreConfidence" : [
+                "NaN",
+                "NaN"
+            ],
+            "scorePercentiles" : {
+                "0.0" : 0.0015757727270292092,
+                "50.0" : 0.0015757727270292092,
+                "90.0" : 0.0015757727270292092,
+                "95.0" : 0.0015757727270292092,
+                "99.0" : 0.0015757727270292092,
+                "99.9" : 0.0015757727270292092,
+                "99.99" : 0.0015757727270292092,
+                "99.999" : 0.0015757727270292092,
+                "99.9999" : 0.0015757727270292092,
+                "100.0" : 0.0015757727270292092
+            },
+            "scoreUnit" : "ms/op",
+            "rawData" : [
+                [
+                    0.0015757727270292092
+                ]
+            ]
+        },
+        "secondaryMetrics" : {
+        }
+    },
+    {
+        "jmhVersion" : "1.26",
+        "benchmark" : "com.sogecap.framework.utils.benchmark.DateConverterPerfTest.testLongConstructeur",
+        "mode" : "avgt",
+        "threads" : 1,
+        "forks" : 0,
+        "jvm" : "D:\\Apps\\Java\\jdk1.8.0_192\\jre\\bin\\java.exe",
+        "jvmArgs" : [
+            "-javaagent:C:\\\\Users\\\\x204838\\\\.m2\\\\repository\\\\org\\\\jacoco\\\\org.jacoco.agent\\\\0.8.5\\\\org.jacoco.agent-0.8.5-runtime.jar=destfile=C:\\\\Users\\\\X204838\\\\Desktop\\\\projects\\\\framework3\\\\framework-dto\\\\target\\\\jacoco.exec"
+        ],
+        "jdkVersion" : "1.8.0_192",
+        "vmName" : "Java HotSpot(TM) 64-Bit Server VM",
+        "vmVersion" : "25.192-b12",
+        "warmupIterations" : 1,
+        "warmupTime" : "10 s",
+        "warmupBatchSize" : 1,
+        "measurementIterations" : 1,
+        "measurementTime" : "10 s",
+        "measurementBatchSize" : 1,
+        "primaryMetric" : {
+            "score" : 0.0013522939401893206,
+            "scoreError" : "NaN",
+            "scoreConfidence" : [
+                "NaN",
+                "NaN"
+            ],
+            "scorePercentiles" : {
+                "0.0" : 0.0013522939401893206,
+                "50.0" : 0.0013522939401893206,
+                "90.0" : 0.0013522939401893206,
+                "95.0" : 0.0013522939401893206,
+                "99.0" : 0.0013522939401893206,
+                "99.9" : 0.0013522939401893206,
+                "99.99" : 0.0013522939401893206,
+                "99.999" : 0.0013522939401893206,
+                "99.9999" : 0.0013522939401893206,
+                "100.0" : 0.0013522939401893206
+            },
+            "scoreUnit" : "ms/op",
+            "rawData" : [
+                [
+                    0.0013522939401893206
+                ]
+            ]
+        },
+        "secondaryMetrics" : {
+        }
+    },
+    {
+        "jmhVersion" : "1.26",
+        "benchmark" : "com.sogecap.framework.utils.benchmark.DateConverterPerfTest.testLongConstructeurSansHeure",
+        "mode" : "avgt",
+        "threads" : 1,
+        "forks" : 0,
+        "jvm" : "D:\\Apps\\Java\\jdk1.8.0_192\\jre\\bin\\java.exe",
+        "jvmArgs" : [
+            "-javaagent:C:\\\\Users\\\\x204838\\\\.m2\\\\repository\\\\org\\\\jacoco\\\\org.jacoco.agent\\\\0.8.5\\\\org.jacoco.agent-0.8.5-runtime.jar=destfile=C:\\\\Users\\\\X204838\\\\Desktop\\\\projects\\\\framework3\\\\framework-dto\\\\target\\\\jacoco.exec"
+        ],
+        "jdkVersion" : "1.8.0_192",
+        "vmName" : "Java HotSpot(TM) 64-Bit Server VM",
+        "vmVersion" : "25.192-b12",
+        "warmupIterations" : 1,
+        "warmupTime" : "10 s",
+        "warmupBatchSize" : 1,
+        "measurementIterations" : 1,
+        "measurementTime" : "10 s",
+        "measurementBatchSize" : 1,
+        "primaryMetric" : {
+            "score" : 0.0012639385812311405,
+            "scoreError" : "NaN",
+            "scoreConfidence" : [
+                "NaN",
+                "NaN"
+            ],
+            "scorePercentiles" : {
+                "0.0" : 0.0012639385812311405,
+                "50.0" : 0.0012639385812311405,
+                "90.0" : 0.0012639385812311405,
+                "95.0" : 0.0012639385812311405,
+                "99.0" : 0.0012639385812311405,
+                "99.9" : 0.0012639385812311405,
+                "99.99" : 0.0012639385812311405,
+                "99.999" : 0.0012639385812311405,
+                "99.9999" : 0.0012639385812311405,
+                "100.0" : 0.0012639385812311405
+            },
+            "scoreUnit" : "ms/op",
+            "rawData" : [
+                [
+                    0.0012639385812311405
+                ]
+            ]
+        },
+        "secondaryMetrics" : {
+        }
+    },
+    {
+        "jmhVersion" : "1.26",
+        "benchmark" : "com.sogecap.framework.utils.benchmark.DateConverterPerfTest.testMinutes",
+        "mode" : "avgt",
+        "threads" : 1,
+        "forks" : 0,
+        "jvm" : "D:\\Apps\\Java\\jdk1.8.0_192\\jre\\bin\\java.exe",
+        "jvmArgs" : [
+            "-javaagent:C:\\\\Users\\\\x204838\\\\.m2\\\\repository\\\\org\\\\jacoco\\\\org.jacoco.agent\\\\0.8.5\\\\org.jacoco.agent-0.8.5-runtime.jar=destfile=C:\\\\Users\\\\X204838\\\\Desktop\\\\projects\\\\framework3\\\\framework-dto\\\\target\\\\jacoco.exec"
+        ],
+        "jdkVersion" : "1.8.0_192",
+        "vmName" : "Java HotSpot(TM) 64-Bit Server VM",
+        "vmVersion" : "25.192-b12",
+        "warmupIterations" : 1,
+        "warmupTime" : "10 s",
+        "warmupBatchSize" : 1,
+        "measurementIterations" : 1,
+        "measurementTime" : "10 s",
+        "measurementBatchSize" : 1,
+        "primaryMetric" : {
+            "score" : 0.0015488089654214468,
+            "scoreError" : "NaN",
+            "scoreConfidence" : [
+                "NaN",
+                "NaN"
+            ],
+            "scorePercentiles" : {
+                "0.0" : 0.0015488089654214468,
+                "50.0" : 0.0015488089654214468,
+                "90.0" : 0.0015488089654214468,
+                "95.0" : 0.0015488089654214468,
+                "99.0" : 0.0015488089654214468,
+                "99.9" : 0.0015488089654214468,
+                "99.99" : 0.0015488089654214468,
+                "99.999" : 0.0015488089654214468,
+                "99.9999" : 0.0015488089654214468,
+                "100.0" : 0.0015488089654214468
+            },
+            "scoreUnit" : "ms/op",
+            "rawData" : [
+                [
+                    0.0015488089654214468
+                ]
+            ]
+        },
+        "secondaryMetrics" : {
+        }
+    },
+    {
+        "jmhVersion" : "1.26",
+        "benchmark" : "com.sogecap.framework.utils.benchmark.DateConverterPerfTest.testParseLocalDateTimeToSGKTimestamp",
+        "mode" : "avgt",
+        "threads" : 1,
+        "forks" : 0,
+        "jvm" : "D:\\Apps\\Java\\jdk1.8.0_192\\jre\\bin\\java.exe",
+        "jvmArgs" : [
+            "-javaagent:C:\\\\Users\\\\x204838\\\\.m2\\\\repository\\\\org\\\\jacoco\\\\org.jacoco.agent\\\\0.8.5\\\\org.jacoco.agent-0.8.5-runtime.jar=destfile=C:\\\\Users\\\\X204838\\\\Desktop\\\\projects\\\\framework3\\\\framework-dto\\\\target\\\\jacoco.exec"
+        ],
+        "jdkVersion" : "1.8.0_192",
+        "vmName" : "Java HotSpot(TM) 64-Bit Server VM",
+        "vmVersion" : "25.192-b12",
+        "warmupIterations" : 1,
+        "warmupTime" : "10 s",
+        "warmupBatchSize" : 1,
+        "measurementIterations" : 1,
+        "measurementTime" : "10 s",
+        "measurementBatchSize" : 1,
+        "primaryMetric" : {
+            "score" : 0.004606551836404216,
+            "scoreError" : "NaN",
+            "scoreConfidence" : [
+                "NaN",
+                "NaN"
+            ],
+            "scorePercentiles" : {
+                "0.0" : 0.004606551836404216,
+                "50.0" : 0.004606551836404216,
+                "90.0" : 0.004606551836404216,
+                "95.0" : 0.004606551836404216,
+                "99.0" : 0.004606551836404216,
+                "99.9" : 0.004606551836404216,
+                "99.99" : 0.004606551836404216,
+                "99.999" : 0.004606551836404216,
+                "99.9999" : 0.004606551836404216,
+                "100.0" : 0.004606551836404216
+            },
+            "scoreUnit" : "ms/op",
+            "rawData" : [
+                [
+                    0.004606551836404216
+                ]
+            ]
+        },
+        "secondaryMetrics" : {
+        }
+    },
+    {
+        "jmhVersion" : "1.26",
+        "benchmark" : "com.sogecap.framework.utils.benchmark.DateConverterPerfTest.testParseStringToDate",
+        "mode" : "avgt",
+        "threads" : 1,
+        "forks" : 0,
+        "jvm" : "D:\\Apps\\Java\\jdk1.8.0_192\\jre\\bin\\java.exe",
+        "jvmArgs" : [
+            "-javaagent:C:\\\\Users\\\\x204838\\\\.m2\\\\repository\\\\org\\\\jacoco\\\\org.jacoco.agent\\\\0.8.5\\\\org.jacoco.agent-0.8.5-runtime.jar=destfile=C:\\\\Users\\\\X204838\\\\Desktop\\\\projects\\\\framework3\\\\framework-dto\\\\target\\\\jacoco.exec"
+        ],
+        "jdkVersion" : "1.8.0_192",
+        "vmName" : "Java HotSpot(TM) 64-Bit Server VM",
+        "vmVersion" : "25.192-b12",
+        "warmupIterations" : 1,
+        "warmupTime" : "10 s",
+        "warmupBatchSize" : 1,
+        "measurementIterations" : 1,
+        "measurementTime" : "10 s",
+        "measurementBatchSize" : 1,
+        "primaryMetric" : {
+            "score" : 0.0015471492579663185,
+            "scoreError" : "NaN",
+            "scoreConfidence" : [
+                "NaN",
+                "NaN"
+            ],
+            "scorePercentiles" : {
+                "0.0" : 0.0015471492579663185,
+                "50.0" : 0.0015471492579663185,
+                "90.0" : 0.0015471492579663185,
+                "95.0" : 0.0015471492579663185,
+                "99.0" : 0.0015471492579663185,
+                "99.9" : 0.0015471492579663185,
+                "99.99" : 0.0015471492579663185,
+                "99.999" : 0.0015471492579663185,
+                "99.9999" : 0.0015471492579663185,
+                "100.0" : 0.0015471492579663185
+            },
+            "scoreUnit" : "ms/op",
+            "rawData" : [
+                [
+                    0.0015471492579663185
+                ]
+            ]
+        },
+        "secondaryMetrics" : {
+        }
+    },
+    {
+        "jmhVersion" : "1.26",
+        "benchmark" : "com.sogecap.framework.utils.benchmark.DateConverterPerfTest.testParseStringToDateNoPatternString",
+        "mode" : "avgt",
+        "threads" : 1,
+        "forks" : 0,
+        "jvm" : "D:\\Apps\\Java\\jdk1.8.0_192\\jre\\bin\\java.exe",
+        "jvmArgs" : [
+            "-javaagent:C:\\\\Users\\\\x204838\\\\.m2\\\\repository\\\\org\\\\jacoco\\\\org.jacoco.agent\\\\0.8.5\\\\org.jacoco.agent-0.8.5-runtime.jar=destfile=C:\\\\Users\\\\X204838\\\\Desktop\\\\projects\\\\framework3\\\\framework-dto\\\\target\\\\jacoco.exec"
+        ],
+        "jdkVersion" : "1.8.0_192",
+        "vmName" : "Java HotSpot(TM) 64-Bit Server VM",
+        "vmVersion" : "25.192-b12",
+        "warmupIterations" : 1,
+        "warmupTime" : "10 s",
+        "warmupBatchSize" : 1,
+        "measurementIterations" : 1,
+        "measurementTime" : "10 s",
+        "measurementBatchSize" : 1,
+        "primaryMetric" : {
+            "score" : 0.0036988542786390763,
+            "scoreError" : "NaN",
+            "scoreConfidence" : [
+                "NaN",
+                "NaN"
+            ],
+            "scorePercentiles" : {
+                "0.0" : 0.0036988542786390763,
+                "50.0" : 0.0036988542786390763,
+                "90.0" : 0.0036988542786390763,
+                "95.0" : 0.0036988542786390763,
+                "99.0" : 0.0036988542786390763,
+                "99.9" : 0.0036988542786390763,
+                "99.99" : 0.0036988542786390763,
+                "99.999" : 0.0036988542786390763,
+                "99.9999" : 0.0036988542786390763,
+                "100.0" : 0.0036988542786390763
+            },
+            "scoreUnit" : "ms/op",
+            "rawData" : [
+                [
+                    0.0036988542786390763
+                ]
+            ]
+        },
+        "secondaryMetrics" : {
+        }
+    },
+    {
+        "jmhVersion" : "1.26",
+        "benchmark" : "com.sogecap.framework.utils.benchmark.DateConverterPerfTest.testParseStringToIso8601",
+        "mode" : "avgt",
+        "threads" : 1,
+        "forks" : 0,
+        "jvm" : "D:\\Apps\\Java\\jdk1.8.0_192\\jre\\bin\\java.exe",
+        "jvmArgs" : [
+            "-javaagent:C:\\\\Users\\\\x204838\\\\.m2\\\\repository\\\\org\\\\jacoco\\\\org.jacoco.agent\\\\0.8.5\\\\org.jacoco.agent-0.8.5-runtime.jar=destfile=C:\\\\Users\\\\X204838\\\\Desktop\\\\projects\\\\framework3\\\\framework-dto\\\\target\\\\jacoco.exec"
+        ],
+        "jdkVersion" : "1.8.0_192",
+        "vmName" : "Java HotSpot(TM) 64-Bit Server VM",
+        "vmVersion" : "25.192-b12",
+        "warmupIterations" : 1,
+        "warmupTime" : "10 s",
+        "warmupBatchSize" : 1,
+        "measurementIterations" : 1,
+        "measurementTime" : "10 s",
+        "measurementBatchSize" : 1,
+        "primaryMetric" : {
+            "score" : 0.0028980281268094375,
+            "scoreError" : "NaN",
+            "scoreConfidence" : [
+                "NaN",
+                "NaN"
+            ],
+            "scorePercentiles" : {
+                "0.0" : 0.0028980281268094375,
+                "50.0" : 0.0028980281268094375,
+                "90.0" : 0.0028980281268094375,
+                "95.0" : 0.0028980281268094375,
+                "99.0" : 0.0028980281268094375,
+                "99.9" : 0.0028980281268094375,
+                "99.99" : 0.0028980281268094375,
+                "99.999" : 0.0028980281268094375,
+                "99.9999" : 0.0028980281268094375,
+                "100.0" : 0.0028980281268094375
+            },
+            "scoreUnit" : "ms/op",
+            "rawData" : [
+                [
+                    0.0028980281268094375
+                ]
+            ]
+        },
+        "secondaryMetrics" : {
+        }
+    },
+    {
+        "jmhVersion" : "1.26",
+        "benchmark" : "com.sogecap.framework.utils.benchmark.DateConverterPerfTest.testParseStringToSGKDate",
+        "mode" : "avgt",
+        "threads" : 1,
+        "forks" : 0,
+        "jvm" : "D:\\Apps\\Java\\jdk1.8.0_192\\jre\\bin\\java.exe",
+        "jvmArgs" : [
+            "-javaagent:C:\\\\Users\\\\x204838\\\\.m2\\\\repository\\\\org\\\\jacoco\\\\org.jacoco.agent\\\\0.8.5\\\\org.jacoco.agent-0.8.5-runtime.jar=destfile=C:\\\\Users\\\\X204838\\\\Desktop\\\\projects\\\\framework3\\\\framework-dto\\\\target\\\\jacoco.exec"
+        ],
+        "jdkVersion" : "1.8.0_192",
+        "vmName" : "Java HotSpot(TM) 64-Bit Server VM",
+        "vmVersion" : "25.192-b12",
+        "warmupIterations" : 1,
+        "warmupTime" : "10 s",
+        "warmupBatchSize" : 1,
+        "measurementIterations" : 1,
+        "measurementTime" : "10 s",
+        "measurementBatchSize" : 1,
+        "primaryMetric" : {
+            "score" : 0.002159568020980498,
+            "scoreError" : "NaN",
+            "scoreConfidence" : [
+                "NaN",
+                "NaN"
+            ],
+            "scorePercentiles" : {
+                "0.0" : 0.002159568020980498,
+                "50.0" : 0.002159568020980498,
+                "90.0" : 0.002159568020980498,
+                "95.0" : 0.002159568020980498,
+                "99.0" : 0.002159568020980498,
+                "99.9" : 0.002159568020980498,
+                "99.99" : 0.002159568020980498,
+                "99.999" : 0.002159568020980498,
+                "99.9999" : 0.002159568020980498,
+                "100.0" : 0.002159568020980498
+            },
+            "scoreUnit" : "ms/op",
+            "rawData" : [
+                [
+                    0.002159568020980498
+                ]
+            ]
+        },
+        "secondaryMetrics" : {
+        }
+    },
+    {
+        "jmhVersion" : "1.26",
+        "benchmark" : "com.sogecap.framework.utils.benchmark.DateConverterPerfTest.testParseStringToSGKTimestamp",
+        "mode" : "avgt",
+        "threads" : 1,
+        "forks" : 0,
+        "jvm" : "D:\\Apps\\Java\\jdk1.8.0_192\\jre\\bin\\java.exe",
+        "jvmArgs" : [
+            "-javaagent:C:\\\\Users\\\\x204838\\\\.m2\\\\repository\\\\org\\\\jacoco\\\\org.jacoco.agent\\\\0.8.5\\\\org.jacoco.agent-0.8.5-runtime.jar=destfile=C:\\\\Users\\\\X204838\\\\Desktop\\\\projects\\\\framework3\\\\framework-dto\\\\target\\\\jacoco.exec"
+        ],
+        "jdkVersion" : "1.8.0_192",
+        "vmName" : "Java HotSpot(TM) 64-Bit Server VM",
+        "vmVersion" : "25.192-b12",
+        "warmupIterations" : 1,
+        "warmupTime" : "10 s",
+        "warmupBatchSize" : 1,
+        "measurementIterations" : 1,
+        "measurementTime" : "10 s",
+        "measurementBatchSize" : 1,
+        "primaryMetric" : {
+            "score" : 0.002795321842360644,
+            "scoreError" : "NaN",
+            "scoreConfidence" : [
+                "NaN",
+                "NaN"
+            ],
+            "scorePercentiles" : {
+                "0.0" : 0.002795321842360644,
+                "50.0" : 0.002795321842360644,
+                "90.0" : 0.002795321842360644,
+                "95.0" : 0.002795321842360644,
+                "99.0" : 0.002795321842360644,
+                "99.9" : 0.002795321842360644,
+                "99.99" : 0.002795321842360644,
+                "99.999" : 0.002795321842360644,
+                "99.9999" : 0.002795321842360644,
+                "100.0" : 0.002795321842360644
+            },
+            "scoreUnit" : "ms/op",
+            "rawData" : [
+                [
+                    0.002795321842360644
+                ]
+            ]
+        },
+        "secondaryMetrics" : {
+        }
+    },
+    {
+        "jmhVersion" : "1.26",
+        "benchmark" : "com.sogecap.framework.utils.benchmark.DateConverterPerfTest.testParseStringToXMLGregorianCalendar",
+        "mode" : "avgt",
+        "threads" : 1,
+        "forks" : 0,
+        "jvm" : "D:\\Apps\\Java\\jdk1.8.0_192\\jre\\bin\\java.exe",
+        "jvmArgs" : [
+            "-javaagent:C:\\\\Users\\\\x204838\\\\.m2\\\\repository\\\\org\\\\jacoco\\\\org.jacoco.agent\\\\0.8.5\\\\org.jacoco.agent-0.8.5-runtime.jar=destfile=C:\\\\Users\\\\X204838\\\\Desktop\\\\projects\\\\framework3\\\\framework-dto\\\\target\\\\jacoco.exec"
+        ],
+        "jdkVersion" : "1.8.0_192",
+        "vmName" : "Java HotSpot(TM) 64-Bit Server VM",
+        "vmVersion" : "25.192-b12",
+        "warmupIterations" : 1,
+        "warmupTime" : "10 s",
+        "warmupBatchSize" : 1,
+        "measurementIterations" : 1,
+        "measurementTime" : "10 s",
+        "measurementBatchSize" : 1,
+        "primaryMetric" : {
+            "score" : 0.12421778105516779,
+            "scoreError" : "NaN",
+            "scoreConfidence" : [
+                "NaN",
+                "NaN"
+            ],
+            "scorePercentiles" : {
+                "0.0" : 0.12421778105516779,
+                "50.0" : 0.12421778105516779,
+                "90.0" : 0.12421778105516779,
+                "95.0" : 0.12421778105516779,
+                "99.0" : 0.12421778105516779,
+                "99.9" : 0.12421778105516779,
+                "99.99" : 0.12421778105516779,
+                "99.999" : 0.12421778105516779,
+                "99.9999" : 0.12421778105516779,
+                "100.0" : 0.12421778105516779
+            },
+            "scoreUnit" : "ms/op",
+            "rawData" : [
+                [
+                    0.12421778105516779
+                ]
+            ]
+        },
+        "secondaryMetrics" : {
+        }
+    },
+    {
+        "jmhVersion" : "1.26",
+        "benchmark" : "com.sogecap.framework.utils.benchmark.DateConverterPerfTest.testParseStringToXMLGregorianCalendar_HideAll",
+        "mode" : "avgt",
+        "threads" : 1,
+        "forks" : 0,
+        "jvm" : "D:\\Apps\\Java\\jdk1.8.0_192\\jre\\bin\\java.exe",
+        "jvmArgs" : [
+            "-javaagent:C:\\\\Users\\\\x204838\\\\.m2\\\\repository\\\\org\\\\jacoco\\\\org.jacoco.agent\\\\0.8.5\\\\org.jacoco.agent-0.8.5-runtime.jar=destfile=C:\\\\Users\\\\X204838\\\\Desktop\\\\projects\\\\framework3\\\\framework-dto\\\\target\\\\jacoco.exec"
+        ],
+        "jdkVersion" : "1.8.0_192",
+        "vmName" : "Java HotSpot(TM) 64-Bit Server VM",
+        "vmVersion" : "25.192-b12",
+        "warmupIterations" : 1,
+        "warmupTime" : "10 s",
+        "warmupBatchSize" : 1,
+        "measurementIterations" : 1,
+        "measurementTime" : "10 s",
+        "measurementBatchSize" : 1,
+        "primaryMetric" : {
+            "score" : 0.1252653672370168,
+            "scoreError" : "NaN",
+            "scoreConfidence" : [
+                "NaN",
+                "NaN"
+            ],
+            "scorePercentiles" : {
+                "0.0" : 0.1252653672370168,
+                "50.0" : 0.1252653672370168,
+                "90.0" : 0.1252653672370168,
+                "95.0" : 0.1252653672370168,
+                "99.0" : 0.1252653672370168,
+                "99.9" : 0.1252653672370168,
+                "99.99" : 0.1252653672370168,
+                "99.999" : 0.1252653672370168,
+                "99.9999" : 0.1252653672370168,
+                "100.0" : 0.1252653672370168
+            },
+            "scoreUnit" : "ms/op",
+            "rawData" : [
+                [
+                    0.1252653672370168
+                ]
+            ]
+        },
+        "secondaryMetrics" : {
+        }
+    },
+    {
+        "jmhVersion" : "1.26",
+        "benchmark" : "com.sogecap.framework.utils.benchmark.DateConverterPerfTest.testToIso8601Extended",
+        "mode" : "avgt",
+        "threads" : 1,
+        "forks" : 0,
+        "jvm" : "D:\\Apps\\Java\\jdk1.8.0_192\\jre\\bin\\java.exe",
+        "jvmArgs" : [
+            "-javaagent:C:\\\\Users\\\\x204838\\\\.m2\\\\repository\\\\org\\\\jacoco\\\\org.jacoco.agent\\\\0.8.5\\\\org.jacoco.agent-0.8.5-runtime.jar=destfile=C:\\\\Users\\\\X204838\\\\Desktop\\\\projects\\\\framework3\\\\framework-dto\\\\target\\\\jacoco.exec"
+        ],
+        "jdkVersion" : "1.8.0_192",
+        "vmName" : "Java HotSpot(TM) 64-Bit Server VM",
+        "vmVersion" : "25.192-b12",
+        "warmupIterations" : 1,
+        "warmupTime" : "10 s",
+        "warmupBatchSize" : 1,
+        "measurementIterations" : 1,
+        "measurementTime" : "10 s",
+        "measurementBatchSize" : 1,
+        "primaryMetric" : {
+            "score" : 0.0044964605551983524,
+            "scoreError" : "NaN",
+            "scoreConfidence" : [
+                "NaN",
+                "NaN"
+            ],
+            "scorePercentiles" : {
+                "0.0" : 0.0044964605551983524,
+                "50.0" : 0.0044964605551983524,
+                "90.0" : 0.0044964605551983524,
+                "95.0" : 0.0044964605551983524,
+                "99.0" : 0.0044964605551983524,
+                "99.9" : 0.0044964605551983524,
+                "99.99" : 0.0044964605551983524,
+                "99.999" : 0.0044964605551983524,
+                "99.9999" : 0.0044964605551983524,
+                "100.0" : 0.0044964605551983524
+            },
+            "scoreUnit" : "ms/op",
+            "rawData" : [
+                [
+                    0.0044964605551983524
+                ]
+            ]
+        },
+        "secondaryMetrics" : {
+        }
+    },
+    {
+        "jmhVersion" : "1.26",
+        "benchmark" : "com.sogecap.framework.utils.benchmark.DateConverterPerfTest.testToString",
+        "mode" : "avgt",
+        "threads" : 1,
+        "forks" : 0,
+        "jvm" : "D:\\Apps\\Java\\jdk1.8.0_192\\jre\\bin\\java.exe",
+        "jvmArgs" : [
+            "-javaagent:C:\\\\Users\\\\x204838\\\\.m2\\\\repository\\\\org\\\\jacoco\\\\org.jacoco.agent\\\\0.8.5\\\\org.jacoco.agent-0.8.5-runtime.jar=destfile=C:\\\\Users\\\\X204838\\\\Desktop\\\\projects\\\\framework3\\\\framework-dto\\\\target\\\\jacoco.exec"
+        ],
+        "jdkVersion" : "1.8.0_192",
+        "vmName" : "Java HotSpot(TM) 64-Bit Server VM",
+        "vmVersion" : "25.192-b12",
+        "warmupIterations" : 1,
+        "warmupTime" : "10 s",
+        "warmupBatchSize" : 1,
+        "measurementIterations" : 1,
+        "measurementTime" : "10 s",
+        "measurementBatchSize" : 1,
+        "primaryMetric" : {
+            "score" : 0.004492082273241578,
+            "scoreError" : "NaN",
+            "scoreConfidence" : [
+                "NaN",
+                "NaN"
+            ],
+            "scorePercentiles" : {
+                "0.0" : 0.004492082273241578,
+                "50.0" : 0.004492082273241578,
+                "90.0" : 0.004492082273241578,
+                "95.0" : 0.004492082273241578,
+                "99.0" : 0.004492082273241578,
+                "99.9" : 0.004492082273241578,
+                "99.99" : 0.004492082273241578,
+                "99.999" : 0.004492082273241578,
+                "99.9999" : 0.004492082273241578,
+                "100.0" : 0.004492082273241578
+            },
+            "scoreUnit" : "ms/op",
+            "rawData" : [
+                [
+                    0.004492082273241578
+                ]
+            ]
+        },
+        "secondaryMetrics" : {
+        }
+    },
+    {
+        "jmhVersion" : "1.26",
+        "benchmark" : "com.sogecap.framework.utils.benchmark.DateConverterPerfTest.testToStringAvecParam",
+        "mode" : "avgt",
+        "threads" : 1,
+        "forks" : 0,
+        "jvm" : "D:\\Apps\\Java\\jdk1.8.0_192\\jre\\bin\\java.exe",
+        "jvmArgs" : [
+            "-javaagent:C:\\\\Users\\\\x204838\\\\.m2\\\\repository\\\\org\\\\jacoco\\\\org.jacoco.agent\\\\0.8.5\\\\org.jacoco.agent-0.8.5-runtime.jar=destfile=C:\\\\Users\\\\X204838\\\\Desktop\\\\projects\\\\framework3\\\\framework-dto\\\\target\\\\jacoco.exec"
+        ],
+        "jdkVersion" : "1.8.0_192",
+        "vmName" : "Java HotSpot(TM) 64-Bit Server VM",
+        "vmVersion" : "25.192-b12",
+        "warmupIterations" : 1,
+        "warmupTime" : "10 s",
+        "warmupBatchSize" : 1,
+        "measurementIterations" : 1,
+        "measurementTime" : "10 s",
+        "measurementBatchSize" : 1,
+        "primaryMetric" : {
+            "score" : 0.0013432878380133626,
+            "scoreError" : "NaN",
+            "scoreConfidence" : [
+                "NaN",
+                "NaN"
+            ],
+            "scorePercentiles" : {
+                "0.0" : 0.0013432878380133626,
+                "50.0" : 0.0013432878380133626,
+                "90.0" : 0.0013432878380133626,
+                "95.0" : 0.0013432878380133626,
+                "99.0" : 0.0013432878380133626,
+                "99.9" : 0.0013432878380133626,
+                "99.99" : 0.0013432878380133626,
+                "99.999" : 0.0013432878380133626,
+                "99.9999" : 0.0013432878380133626,
+                "100.0" : 0.0013432878380133626
+            },
+            "scoreUnit" : "ms/op",
+            "rawData" : [
+                [
+                    0.0013432878380133626
+                ]
+            ]
+        },
+        "secondaryMetrics" : {
+        }
+    },
+    {
+        "jmhVersion" : "1.26",
+        "benchmark" : "com.sogecap.framework.utils.benchmark.DateConverterPerfTest.testToddMMyyyy",
+        "mode" : "avgt",
+        "threads" : 1,
+        "forks" : 0,
+        "jvm" : "D:\\Apps\\Java\\jdk1.8.0_192\\jre\\bin\\java.exe",
+        "jvmArgs" : [
+            "-javaagent:C:\\\\Users\\\\x204838\\\\.m2\\\\repository\\\\org\\\\jacoco\\\\org.jacoco.agent\\\\0.8.5\\\\org.jacoco.agent-0.8.5-runtime.jar=destfile=C:\\\\Users\\\\X204838\\\\Desktop\\\\projects\\\\framework3\\\\framework-dto\\\\target\\\\jacoco.exec"
+        ],
+        "jdkVersion" : "1.8.0_192",
+        "vmName" : "Java HotSpot(TM) 64-Bit Server VM",
+        "vmVersion" : "25.192-b12",
+        "warmupIterations" : 1,
+        "warmupTime" : "10 s",
+        "warmupBatchSize" : 1,
+        "measurementIterations" : 1,
+        "measurementTime" : "10 s",
+        "measurementBatchSize" : 1,
+        "primaryMetric" : {
+            "score" : 0.0012777228087103713,
+            "scoreError" : "NaN",
+            "scoreConfidence" : [
+                "NaN",
+                "NaN"
+            ],
+            "scorePercentiles" : {
+                "0.0" : 0.0012777228087103713,
+                "50.0" : 0.0012777228087103713,
+                "90.0" : 0.0012777228087103713,
+                "95.0" : 0.0012777228087103713,
+                "99.0" : 0.0012777228087103713,
+                "99.9" : 0.0012777228087103713,
+                "99.99" : 0.0012777228087103713,
+                "99.999" : 0.0012777228087103713,
+                "99.9999" : 0.0012777228087103713,
+                "100.0" : 0.0012777228087103713
+            },
+            "scoreUnit" : "ms/op",
+            "rawData" : [
+                [
+                    0.0012777228087103713
+                ]
+            ]
+        },
+        "secondaryMetrics" : {
+        }
+    },
+    {
+        "jmhVersion" : "1.26",
+        "benchmark" : "com.sogecap.framework.utils.benchmark.DateConverterPerfTest.testToddMMyyyyNoSeparator",
+        "mode" : "avgt",
+        "threads" : 1,
+        "forks" : 0,
+        "jvm" : "D:\\Apps\\Java\\jdk1.8.0_192\\jre\\bin\\java.exe",
+        "jvmArgs" : [
+            "-javaagent:C:\\\\Users\\\\x204838\\\\.m2\\\\repository\\\\org\\\\jacoco\\\\org.jacoco.agent\\\\0.8.5\\\\org.jacoco.agent-0.8.5-runtime.jar=destfile=C:\\\\Users\\\\X204838\\\\Desktop\\\\projects\\\\framework3\\\\framework-dto\\\\target\\\\jacoco.exec"
+        ],
+        "jdkVersion" : "1.8.0_192",
+        "vmName" : "Java HotSpot(TM) 64-Bit Server VM",
+        "vmVersion" : "25.192-b12",
+        "warmupIterations" : 1,
+        "warmupTime" : "10 s",
+        "warmupBatchSize" : 1,
+        "measurementIterations" : 1,
+        "measurementTime" : "10 s",
+        "measurementBatchSize" : 1,
+        "primaryMetric" : {
+            "score" : 0.0012841054044657443,
+            "scoreError" : "NaN",
+            "scoreConfidence" : [
+                "NaN",
+                "NaN"
+            ],
+            "scorePercentiles" : {
+                "0.0" : 0.0012841054044657443,
+                "50.0" : 0.0012841054044657443,
+                "90.0" : 0.0012841054044657443,
+                "95.0" : 0.0012841054044657443,
+                "99.0" : 0.0012841054044657443,
+                "99.9" : 0.0012841054044657443,
+                "99.99" : 0.0012841054044657443,
+                "99.999" : 0.0012841054044657443,
+                "99.9999" : 0.0012841054044657443,
+                "100.0" : 0.0012841054044657443
+            },
+            "scoreUnit" : "ms/op",
+            "rawData" : [
+                [
+                    0.0012841054044657443
+                ]
+            ]
+        },
+        "secondaryMetrics" : {
+        }
+    }
+]
+
+
