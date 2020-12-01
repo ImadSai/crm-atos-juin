@@ -1,24 +1,37 @@
-for i in $(find Benchmark-results -type f); do
+for i in $(find Benchmark-results -type f -name '*.json'); do
+
+  MODULE="module test"
+
+  echo "File : $i"
   fileContent=$(cat $i);
 
   for key in $(jq '. | keys | .[]' <<< "$fileContent"); do
         
-        # Set Benchmark Result 
-        benchmarkResult=$(jq -r ".[$key]" <<< "$fileContent");
+        # Set Benchmark Informations 
+        benchmark_informations=$(jq -r ".[$key]" <<< "$fileContent");
           
         # Set class informations
-        classe_informations=$(jq -r ".benchmark" <<< "$benchmarkResult");
+        classe_informations=$(jq -r ".benchmark" <<< "$benchmark_informations");
+        CLASS=$(echo $classe_informations | rev | cut -d\. -f2 | rev)
+        METHOD=$(echo $classe_informations | rev | cut -d\. -f1 | rev)
 
-        echo $classe_informations
+        # Set Mode Benchmark
+        MODE=$(jq -r ".mode" <<< "$benchmark_informations");
 
-        MODULE="module test"
-        CLASS="class test"
-        METHOD="Method test"
-        MODE="AVG test"
-        RESULT=0.10
-        SCORE_UNIT="ms/s test"
+        # Set Benchmark Results
+        benchmark_result=$(jq -r ".primaryMetric" <<< "$benchmark_informations");
 
-        #benchmarkInformatons="{\"module\":\"$MODULE\",\"class\":\"$CLASS\",\"method\":\"$METHOD\",\"mode\":\"$MODE\",\"result\":$RESULT,\"score_unit\":\"$SCORE_UNIT\"}"
-        #echo $benchmarkInformatons;
+        # Set Score and Score Unit
+        RESULT=$(jq -r ".score" <<< "$benchmark_result");
+        SCORE_UNIT=$(jq -r ".scoreUnit" <<< "$benchmark_result");
+
+        # Creation de notre Object
+        benchmarkInformatons="{\"module\":\"$MODULE\",\"class\":\"$CLASS\",\"method\":\"$METHOD\",\"mode\":\"$MODE\",\"result\":$RESULT,\"score_unit\":\"$SCORE_UNIT\"}"
+        echo $benchmarkInformatons;
+
+        # Push de l'Object à Logstash
+        #TODO port 60011
   done;
+
+  echo "DONE"
 done;
